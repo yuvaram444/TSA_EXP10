@@ -333,6 +333,7 @@ max      913.28
 Name: Close, dtype: float64
 ```
 <img width="1117" height="327" alt="image" src="https://github.com/user-attachments/assets/7f2f3f1d-1835-4dae-ac56-32e71076d871" />
+
 ```
 ============================================================
 STEP 2 — STATIONARITY CHECK
@@ -346,7 +347,9 @@ ADF Test — Original Close Price
   Critical (10%) : -2.5722
   → NON-STATIONARY (p > 0.05)
 ```
+
 <img width="1108" height="642" alt="image" src="https://github.com/user-attachments/assets/a55ba902-bbbf-4b26-afb8-6a7dcc7ade13" />
+
 ```
 ADF Test — 1st Order Differenced
   ADF Statistic  : -6.0084
@@ -364,7 +367,9 @@ ADF Test — 1st Order + Seasonal Differenced
   Critical (10%) : -2.5725
   → STATIONARY (p < 0.05) ✓
 ```
+
 <img width="1125" height="956" alt="image" src="https://github.com/user-attachments/assets/4c800bd7-6b79-455a-a2c0-d3ca12c6725d" />
+
 ```
 ============================================================
 STEP 3 — SARIMA PARAMETERS
@@ -446,8 +451,10 @@ STEP 6 — MODEL EVALUATION
     RMSE : 69.17
     MAE  : 55.12
 ```
+
 <img width="1104" height="478" alt="image" src="https://github.com/user-attachments/assets/9d92ee5a-918a-4457-ac02-14ed5f3d4a02" />
 <img width="1118" height="810" alt="image" src="https://github.com/user-attachments/assets/e1ef457e-6fa4-4897-86ab-5c41878efb3a" />
+
 
 ```
 ============================================================
@@ -467,6 +474,7 @@ FINAL PREDICTION — Next 12 Months (2025)
 2025-11-01               932.52
 2025-12-01               952.62
 ```
+
 <img width="1121" height="400" alt="image" src="https://github.com/user-attachments/assets/dcfd62df-0087-4a25-8196-ceb303076be1" />
 
 
